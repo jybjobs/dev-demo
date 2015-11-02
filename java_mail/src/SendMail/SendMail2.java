@@ -95,11 +95,11 @@ public class SendMail2 {
     public static void main(String[] args){
      SendMail2 cn = new SendMail2();
      //设置发件人地址、收件人地址和邮件标题
-     cn.setAddress("jinyubing12345@163.com","jinyubing@lymsh.com","一个带附件的JavaMail邮件");
+     cn.setAddress("aaaaa@163.com","bbbb@lymsh.com","一个带附件的JavaMail邮件");
      //设置要发送附件的位置和标题
      cn.setAffix("J:/Java学习笔记(必看经典).doc","Java学习笔记.doc");
      //设置smtp服务器以及邮箱的帐号和密码
-     cn.send("smtp.163.com","jinyubing@lymsh.com","jinchen12345");
+     cn.send("smtp.163.com","bbbb@lymsh.com","*******");
     
     }
 } 
